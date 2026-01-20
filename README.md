@@ -20,14 +20,22 @@ expansion.
 - **SuperNova_Luminosity_Notebook.ipynb**  
   Main reproducible analysis notebook (Google Colab compatible).
 
-## Data
+## Data Availability & Reproducibility
 
-Pantheon+ SH0ES supernova data are publicly available but are **not redistributed** in
-this repository.  
-Users must download and place the required data locally as described in the notebook
-header to respect redistribution constraints.
+This repository includes an unmodified copy of the **Pantheon+ SH0ES** Type Ia supernova compilation used in the analysis.
 
-No proprietary or modified datasets are included.
+- **Dataset:** Pantheon+ SH0ES  
+- **File:** `Pantheon_SH0ES_v1.0.dat`  
+- **Number of supernovae:** 1701  
+- **Source:** Pantheon+ Collaboration (Brout et al., 2022)  
+- **Retrieval date:** 2025-09-06  
+
+The dataset is provided **unchanged** to ensure full reproducibility and eliminate ambiguity regarding preprocessing.  
+All calculations, transformations, and modeling steps are performed explicitly in  
+`SuperNova_Luminosity_Notebook.ipynb`.
+
+No external data downloads are required to reproduce the results presented in the
+associated Zenodo preprint.
 
 ## How to run
 
