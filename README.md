@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18217479.svg)](https://doi.org/10.5281/zenodo.18217479)
+
 # sfh-supernova-pantheon
 
 Reproducible analysis code for Type Ia supernova time-dilation and luminosity-distance
